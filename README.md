@@ -31,6 +31,13 @@ A hands-on journey to understand **Transformers from first principles** — stud
 * Generated context vectors using the masked attention weights
 
 
+### Day 4 — Multi-Head Attention
+
+* Implemented Multi-Head Attention using multiple Causal Attention heads
+* Created a batch of input sequences
+* Combined the outputs from multiple attention heads
+* Verified the resulting context vector dimensions
+
 
 ---
 
