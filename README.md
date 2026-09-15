@@ -23,6 +23,15 @@ A hands-on journey to understand **Transformers from first principles** — stud
 * Implemented a second version using `nn.Linear` with optional bias
 
 
+### Day 3 — Causal Attention
+
+* Implemented Causal Attention from scratch
+* Applied causal masking to prevent tokens from attending to future tokens
+* Calculated masked attention scores and attention weights
+* Generated context vectors using the masked attention weights
+
+
+
 ---
 
 > 🚧 This is a learning-in-public repository. Notes, implementations, experiments, and understanding will be added as I progress.
