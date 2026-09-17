@@ -39,6 +39,17 @@ A hands-on journey to understand **Transformers from first principles** — stud
 * Verified the resulting context vector dimensions
 
 
+### Day 5 — Multi-Head Attention
+
+* Implemented Multi-Head Attention with weight splitting
+* Split Query, Key, and Value projections into multiple heads
+* Applied causal masking and scaled softmax attention independently across heads
+* Calculated context vectors for each attention head
+* Concatenated the outputs from all heads
+* Implemented the complete Multi-Head Attention mechanism as a PyTorch class
+* Added an output projection layer to combine the concatenated head outputs
+
+
 ---
 
 > 🚧 This is a learning-in-public repository. Notes, implementations, experiments, and understanding will be added as I progress.
